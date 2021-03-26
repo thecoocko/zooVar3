@@ -130,7 +130,12 @@ li{
 }
 .footer-part{
     background-color: black;
-    height: 100vh;
+    height: 80vh;
+}
+.footer-wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
 }
 .big-logo{
     width: 153px;
@@ -139,6 +144,7 @@ li{
 .nav-supheader{
     color:white;
     font-weight: 400;
+    letter-spacing: 0.115em;
 }
 .nav-bar-footer .nav-link-footer:nth-child(n){
     margin-top: 30px;
@@ -152,4 +158,78 @@ li{
     width: 100%;
     max-width: 200px;
     
+}
+.logos{
+    margin-top: 192px;
+}
+.say-thanks{
+    color: white;
+}
+.donate-supheader{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.115em;
+    color: #FCFCFC;
+}
+.donate-info{
+    width: 332px;
+    height: 84px;
+   margin-top: 46px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154%;
+    color: #BCBCBC;
+}
+.donate{
+    padding: 20px 75px;
+    border: 2px solid #FCFCFC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: black;
+    color:  white;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin: 40px 10px;
+}
+.social{
+   max-width: 339px;
+   width: 100%;  
+}
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BCBCBC;
+}
+/*info*/
+.divider{
+    margin-top: 163px;
+    margin-bottom: 50px;
+    border-top: 1px solid #747474;
+}
+.author-info{
+    display: flex;
+    background-color: red;
+    width: 100%;
+}
+h3{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    color: #BCBCBC;
 }
