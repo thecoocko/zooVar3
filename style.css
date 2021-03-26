@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*nav-bar*/
+.nav-bar .nav-link{
+    color: #080029;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.ul-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul-nav-bar li:nth-child(5){
+    font-weight: 500;
+}
+.ul-nav-bar li:nth-child(7){
+    margin-left: 761px;
+}
+/*container*/
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1720px;
+    margin-top: 58px;
+    color: #080029;
+    font-family: 'Rubik', sans-serif;
+}
+/*main*/
+/**error*/
+.error-container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 873px;
+    height: 100%;
+    max-height: 383px;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+.mess-error{
+    font-family: 'Merriweather', serif;
+    font-size: 144px;
+    color:#D9E8FF;
+    text-align:center;
+}
+.error{
+    font-family: Merriweather;
+    text-align: center;
+    margin-top: -63px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 145%;
+    color: #080029;
+
+}
+.description{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 154%;
+    margin-bottom: 25px;
+}
+.back-to-the-main{
+    margin-top: 25px;
+    height: 100%;
+    width: 100%;
+    max-width: 309px;
+    max-height: 61px;
+    padding: 20px 75px;
+    background: #0F0049;
+    border-radius: 5px;
+    color:white;
+    border:none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+}
+.panda-video{
+    margin-top: 35px;
+    margin-bottom: 40px;
+   
+}
+#ytplayer{
+    display:block;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 70px; 
+    margin-bottom: 32px;
+}
+.support-info{
+    margin-top: 32px; 
+    text-align: center;
+    height: 56;
+    width: 425;
+    max-height: 100%;
+    max-width: 100%;
+    font-size: 18px;
+    color: #747474;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154%;
+}
+/*footer*/
+.wrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 154%;
+    color: white;
+}
+.wrapper:nth-child(n){
+   
+}
+.footer-part{
+    background-color: black;
+    height: 100vh;
+}
+.big-logo{
+    width: 153px;
+    height: 117px;
+}
+.nav-supheader{
+    color:white;
+    font-weight: 400;
+}
+.nav-bar-footer .nav-link-footer:nth-child(n){
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nav-bar-footer .nav-link-footer{
+    color: #BCBCBC;
+
+}
+.nav-footer{
+    width: 100%;
+    max-width: 200px;
+    
+}
